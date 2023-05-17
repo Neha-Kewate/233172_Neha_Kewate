@@ -1,0 +1,19 @@
+Introduction
+The online project management system is a web-based application designed to help project managers and teams manage projects more efficiently. The system will provide features for creating and managing projects, assigning tasks to team members, tracking progress, and generating reports.
+
+User Requirements
+The system will have the following user types:
+
+Project Manager: A user who creates and manages projects, assigns tasks, and tracks progress.
+Team Member: A user who is assigned tasks and updates progress.
+
+Functional Requirnment :
+The system will have the following features:
+
+Project creation: A project manager can create a new project and set its name, description, start date, and end date.
+Task assignment: A project manager can assign tasks to team members and set their deadlines.
+Task tracking: Team members can update the progress of their assigned tasks, and project managers can view the progress of all tasks.
+Communication: The system will provide a messaging system for project managers and team members to communicate about the project.
+Reporting: The system will generate reports that show project progress, task completion, and other relevant metrics.
+Pending Tasks : Project manager can able to see the pending tasks and also can set priority to task which is to be completed first.  
+Rating Points To team members : According to work done by members project manager can rate their work or can say acknowledge them. 

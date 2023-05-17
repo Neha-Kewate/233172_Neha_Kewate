@@ -1,0 +1,32 @@
+create table Users(
+ uid int primary key,
+ uname, email varchar(30) not null,
+ passwd varchar(20)not null
+);
+
+create table project(
+ pid int primary key,
+ pname varchar(20),
+ pdesc varchar(50)
+);
+
+create table Tasks(
+tid int primary key,
+pid int,
+tnaame varchar(20), 
+tdesc varchar(50),
+state varchar(20),
+constraint fkey foreign key(pid) references project(pid) 
+)
+
+
+create table Comments(
+  coid int primary key,
+  tid int,
+  uid int,
+  userComments varchar(50),
+  constraint fkey1 foreign key(tid) references Tasks(tid),
+  constraint fkey2 foreign key(uid) references Users(uid)
+
+)
+

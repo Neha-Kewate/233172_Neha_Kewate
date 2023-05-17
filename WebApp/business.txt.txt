@@ -1,0 +1,20 @@
+Business Entities :
+Project managers
+Team members
+
+Business Operations :
+
+tasks
+team members
+creating and managing projects
+Assigning tasks to team members
+tracking progres
+generating reports
+track progress
+Creating new projects
+task assignment
+task tracking
+communication online
+reporting 
+pending tasks
+Rating points to team members
